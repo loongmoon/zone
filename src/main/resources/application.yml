@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: zone
+  profiles:
+    active: local
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+server:
+  port: 9010
+  tomcat:
+    uri-encoding: UTF-8

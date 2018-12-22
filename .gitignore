@@ -1,0 +1,5 @@
+/target/*
+!/target/zone-*.jar
+/.idea
+*.iml
+/logs
