@@ -7,3 +7,9 @@ eureka:
 spring:
   zipkin:
     base-url: http://trail:9002
+    sender:
+      type: web
+
+  sleuth:
+    sampler:
+      probability: 1.0
